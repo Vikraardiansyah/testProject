@@ -12,6 +12,12 @@
 3. Open the folder and type `npm install`
 4. Type `react-native run-android` for run this app. ***Make sure your device is connected with debugging mode***.
 
+## Screenshots
+<div align="center">
+    <img width="250" src="./ss/home.jpg">
+    <img width="250" src="./ss/homeaction.jpg">
+    <img width="250" src="./ss/maps.jpg">
+</div>
 
 ## Release APK
 [`testProject`]()
