@@ -34,22 +34,22 @@ const Home = ({navigation}) => {
   };
 
   const renderItem = ({item}) => (
-    <View style={styles.detailTab}>
-      <TouchableOpacity onPress={() => handleClick(item)}>
+    <TouchableOpacity onPress={() => handleClick(item)}>
+      <View style={styles.detailTab}>
         <View style={styles.list}>
           <Text style={styles.text}>{item.hour}</Text>
           <Divider style={styles.divider} />
         </View>
-      </TouchableOpacity>
-      {hour === item.hour && date === item.date ? (
-        <View style={styles.detail}>
-          <View style={styles.line} />
-          <Text style={styles.textDetail}>{item.detail}</Text>
-        </View>
-      ) : (
-        <View style={styles.emptyDetail} />
-      )}
-    </View>
+        {hour === item.hour && date === item.date ? (
+          <View style={styles.detail}>
+            <View style={styles.line} />
+            <Text style={styles.textDetail}>{item.detail}</Text>
+          </View>
+        ) : (
+          <View style={styles.emptyDetail} />
+        )}
+      </View>
+    </TouchableOpacity>
   );
 
   return (
