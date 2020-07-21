@@ -9,7 +9,7 @@
 ## Usage for development
 1. Open your terminal or command prompt
 2. Type `git clone https://github.com/Vikraardiansyah/testProject.git`
-3. Open the folder and type `npm install
+3. Open the folder and type `npm install`
 4. Type `react-native run-android` for run this app. ***Make sure your device is connected with debugging mode***.
 
 
