@@ -1,7 +1,6 @@
-<h1 align="center">Test project</h1>
-<p align="center">
+# Test project
   Built with React Native.
-</p>
+
 
 ## Requirements
 * [`npm`](https://www.npmjs.com/get-npm)
