@@ -1,5 +1,5 @@
 # Test project
-  Built with React Native.
+
 
 
 ## Requirements
